@@ -10,5 +10,45 @@
       <p>This time, give it a submit button and the ability to submit its data to this file (question-10.html) via the appropriate action and method.</p>
       <p>We talked about forms in week 3. For full credit, your inputs should all be named appropriately so that I can validate the submitted data.</p>
     </main>
+    <form action="question-10.html" method="post">
+        <label>First Name</label><input type="text" name="fname" /><br>
+        <label>Last Name</label><input type="text" name="lname" /><br>
+         <label for="radio-input">
+                Are you a Northeastern Student?
+                <label for="radioyes">
+                  <input type="radio" id="radioyes" name="radio1" value="1"> yes
+                </label>
+                <label for="radiono">
+                  <input type="radio" id="radiono" name="radio1" value="2"> no
+                </label>
+              
+            </label>
+          <br>
+          <label for="radio-input">
+                HTML header<br>
+                <label for="radioh1">
+                  <input type="radio" id="radioh1" name="radio2" value="1"> h1
+                </label><br>
+                <label for="radioh2">
+                  <input type="radio" id="radioh2" name="radio2" value="2"> h2
+                </label><br>
+                <label for="radioh3">
+                    <input type="radio" id="radioh3" name="radio2" value="3"> h3
+                  </label><br>
+                  <label for="radioh4">
+                    <input type="radio" id="radioh4" name="radio2" value="4"> h4
+                  </label><br>
+                  <label for="radioh5">
+                      <input type="radio" id="radioh5" name="radio2" value="5"> h5
+                    </label><br>
+                    <label for="radioh6">
+                      <input type="radio" id="radioh6" name="radio2" value="6"> h6
+                    </label><br>
+              
+              </label>
+          <br>
+          <input type="submit" value="submit"  required="required"/>
+          
+      </form>
   </body>
 </html>
